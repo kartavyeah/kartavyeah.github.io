@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 200" role="img" aria-label="KartavYEAH!">
+  <defs>
+    <linearGradient id="mg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB300"/>
+      <stop offset="1" stop-color="#FF8A00"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#FFB300" flood-opacity="0.55"/>
+    </filter>
+    <filter id="glowR" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#FF4D6D" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <!-- V3 runner mark -->
+  <g transform="translate(20,18) scale(0.5)">
+    <g filter="url(#glow)">
+      <circle cx="72" cy="34" r="21" fill="url(#mg)"/>
+      <path d="M72 66 V186" stroke="url(#mg)" stroke-width="27" stroke-linecap="round"/>
+      <path d="M72 116 L144 56" stroke="url(#mg)" stroke-width="23" stroke-linecap="round"/>
+      <path d="M72 124 L144 192" stroke="url(#mg)" stroke-width="23" stroke-linecap="round"/>
+    </g>
+    <g transform="rotate(8 178 30)" filter="url(#glowR)">
+      <text x="178" y="52" font-family="Archivo, 'Arial Black', sans-serif" font-weight="900" font-size="52" fill="#FF4D6D" text-anchor="middle">!</text>
+    </g>
+  </g>
+  <g font-family="Archivo, 'Arial Black', sans-serif" font-weight="900">
+    <text x="190" y="122" font-size="66" letter-spacing="5" fill="#FFF6E6" rotate="-4 3 -3 3 -3 4">KARTAV</text>
+  </g>
+  <g transform="rotate(-2 645 100)" filter="url(#glow)">
+    <text x="522" y="122" font-family="Archivo, 'Arial Black', sans-serif" font-weight="900" font-size="74" fill="url(#mg)">YEAH</text>
+  </g>
+  <g transform="rotate(5 780 90)" filter="url(#glowR)">
+    <text x="758" y="122" font-family="Archivo, 'Arial Black', sans-serif" font-weight="900" font-size="98" fill="#FF4D6D">!</text>
+  </g>
+</svg>
