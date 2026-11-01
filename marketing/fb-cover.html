@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Shabdkhoj Facebook cover 820x312. Screenshot at 100% = production PNG. -->
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<title>Shabdkhoj FB cover</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Mukta:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#222}
+  .cover{width:820px;height:312px;background:#0d0b08;color:#fff6e6;position:relative;overflow:hidden;
+    font-family:'Mukta',sans-serif;display:flex;align-items:center;padding:0 44px;gap:30px}
+  .cover::before{content:"";position:absolute;inset:0;
+    background:radial-gradient(60% 120% at 12% 50%,rgba(255,179,0,.14),transparent 60%),
+               radial-gradient(50% 100% at 88% 50%,rgba(255,77,109,.10),transparent 60%);}
+  .mark{width:150px;flex:none;position:relative;z-index:1}
+  .mark svg{width:100%;height:auto;display:block;overflow:visible}
+  .copy{position:relative;z-index:1}
+  .hindi{font-size:76px;font-weight:800;line-height:1;letter-spacing:-.01em}
+  .hindi .y{color:#ffb300;text-shadow:0 0 26px rgba(255,179,0,.45)}
+  .tag{font-size:22px;font-weight:600;color:rgba(255,246,230,.75);margin-top:6px}
+  .url{font-family:'Archivo',sans-serif;font-size:16px;font-weight:800;letter-spacing:.12em;color:#2dd4bf;margin-top:10px}
+  .tiles{margin-left:auto;display:flex;gap:12px;position:relative;z-index:1}
+  .tile{width:64px;height:64px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+    font-size:34px;font-weight:700;border:2px solid rgba(255,246,230,.2)}
+  .tile.g{background:#30a24b;border-color:#30a24b;box-shadow:0 0 22px rgba(48,162,75,.5)}
+  .tile.y{background:#b59f3b;border-color:#b59f3b;box-shadow:0 0 22px rgba(181,159,59,.5)}
+  .tile.d{background:#262019}
+  .studio{position:absolute;right:44px;bottom:16px;z-index:1;font-family:'Archivo',sans-serif;
+    font-size:12px;font-weight:800;letter-spacing:.22em;color:rgba(255,246,230,.45)}
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="mark"><svg viewBox="0 0 220 220"><defs><linearGradient id="fbmg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB300"/><stop offset="1" stop-color="#FF8A00"/></linearGradient><filter id="fbglow" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#FFB300" flood-opacity="0.55"/></filter><filter id="fbglowR" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#FF4D6D" flood-opacity="0.8"/></filter></defs><g filter="url(#fbglow)"><circle cx="72" cy="34" r="21" fill="url(#fbmg)"/><path d="M72 66 V186" stroke="url(#fbmg)" stroke-width="27" stroke-linecap="round"/><path d="M72 116 L144 56" stroke="url(#fbmg)" stroke-width="23" stroke-linecap="round"/><path d="M72 124 L144 192" stroke="url(#fbmg)" stroke-width="23" stroke-linecap="round"/></g><g transform="rotate(8 178 30)" filter="url(#fbglowR)"><text x="178" y="52" font-family="Archivo, 'Arial Black', sans-serif" font-weight="900" font-size="52" fill="#FF4D6D" text-anchor="middle">!</text></g></svg></div>
+  <div class="copy">
+    <div class="hindi">शब्दखो<span class="y">ज</span></div>
+    <div class="tag">रोज़ एक नया हिंदी शब्द — ६ प्रयास · ३ अक्षर</div>
+    <div class="url">SHABDKHOJ.KARTAVYEAH.COM</div>
+  </div>
+  <div class="tiles"><div class="tile g">श</div><div class="tile y">खो</div><div class="tile d">ज</div></div>
+  <div class="studio">A KARTAVYEAH! GAME</div>
+</div>
+</body>
+</html>
